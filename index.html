@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 10.7px 0.0px; line-height: 18.4px; font: 16.0px Helvetica; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 16.0px 'Apple Color Emoji'; font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!doctype html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="it"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;meta charset="utf-8" /&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;title&gt;39esimo Prometeo Rimpa Verona 2-4 ottobre 2026&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;style&gt;</span></p>
+<p class="p1"><span class="s1">    :root{</span></p>
+<p class="p1"><span class="s1">      --bg:#0b1220;</span></p>
+<p class="p1"><span class="s1">      --card:#111b2e;</span></p>
+<p class="p1"><span class="s1">      --text:#e9eefc;</span></p>
+<p class="p1"><span class="s1">      --muted:#b9c4e6;</span></p>
+<p class="p1"><span class="s1">      --accent:#7aa2ff;</span></p>
+<p class="p1"><span class="s1">      --accent2:#4de3c1;</span></p>
+<p class="p1"><span class="s1">      --border:rgba(255,255,255,.10);</span></p>
+<p class="p1"><span class="s1">      --shadow: 0 10px 30px rgba(0,0,0,.35);</span></p>
+<p class="p1"><span class="s1">      --radius:16px;</span></p>
+<p class="p1"><span class="s1">      --max: 1100px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    *{box-sizing:border-box}</span></p>
+<p class="p1"><span class="s1">    html,body{height:100%}</span></p>
+<p class="p1"><span class="s1">    body{</span></p>
+<p class="p1"><span class="s1">      margin:0;</span></p>
+<p class="p1"><span class="s1">      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;</span></p>
+<p class="p1"><span class="s1">      background: radial-gradient(1200px 600px at 30% -10%, rgba(122,162,255,.35), transparent 60%),</span></p>
+<p class="p1"><span class="s1">                  radial-gradient(900px 500px at 90% 10%, rgba(77,227,193,.22), transparent 55%),</span></p>
+<p class="p1"><span class="s1">                  var(--bg);</span></p>
+<p class="p1"><span class="s1">      color:var(--text);</span></p>
+<p class="p1"><span class="s1">      line-height:1.5;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    a{color:var(--accent); text-decoration:none}</span></p>
+<p class="p1"><span class="s1">    a:hover{text-decoration:underline}</span></p>
+<p class="p1"><span class="s1">    .wrap{max-width:var(--max); margin:0 auto; padding:24px}</span></p>
+<p class="p1"><span class="s1">    .topbar{</span></p>
+<p class="p1"><span class="s1">      position:sticky; top:0; z-index:50;</span></p>
+<p class="p1"><span class="s1">      backdrop-filter: blur(10px);</span></p>
+<p class="p1"><span class="s1">      background: rgba(11,18,32,.70);</span></p>
+<p class="p1"><span class="s1">      border-bottom:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .nav{</span></p>
+<p class="p1"><span class="s1">      display:flex; align-items:center; justify-content:space-between;</span></p>
+<p class="p1"><span class="s1">      gap:16px;</span></p>
+<p class="p1"><span class="s1">      padding:14px 24px;</span></p>
+<p class="p1"><span class="s1">      max-width:var(--max); margin:0 auto;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .brand{</span></p>
+<p class="p1"><span class="s1">      display:flex; flex-direction:column; gap:2px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .brand strong{font-size:16px}</span></p>
+<p class="p1"><span class="s1">    .brand span{font-size:12px; color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">    .menus{</span></p>
+<p class="p1"><span class="s1">      display:flex; gap:10px; align-items:center; flex-wrap:wrap;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    details{</span></p>
+<p class="p1"><span class="s1">      position:relative;</span></p>
+<p class="p1"><span class="s1">      background: rgba(255,255,255,.04);</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">      border-radius:999px;</span></p>
+<p class="p1"><span class="s1">      padding:8px 12px;</span></p>
+<p class="p1"><span class="s1">      box-shadow: none;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    summary{</span></p>
+<p class="p1"><span class="s1">      cursor:pointer;</span></p>
+<p class="p1"><span class="s1">      list-style:none;</span></p>
+<p class="p1"><span class="s1">      display:flex; align-items:center; gap:8px;</span></p>
+<p class="p1"><span class="s1">      font-weight:600;</span></p>
+<p class="p1"><span class="s1">      user-select:none;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    summary::-webkit-details-marker{display:none}</span></p>
+<p class="p1"><span class="s1">    .caret{</span></p>
+<p class="p1"><span class="s1">      width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;</span></p>
+<p class="p1"><span class="s1">      border-top:6px solid var(--muted);</span></p>
+<p class="p1"><span class="s1">      transform: translateY(1px);</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    details[open] .caret{border-top-color:var(--accent)}</span></p>
+<p class="p1"><span class="s1">    .dropdown{</span></p>
+<p class="p1"><span class="s1">      position:absolute; right:0; top:44px;</span></p>
+<p class="p1"><span class="s1">      min-width:240px;</span></p>
+<p class="p1"><span class="s1">      background: rgba(17,27,46,.98);</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">      border-radius:14px;</span></p>
+<p class="p1"><span class="s1">      box-shadow: var(--shadow);</span></p>
+<p class="p1"><span class="s1">      padding:10px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .dropdown a{</span></p>
+<p class="p1"><span class="s1">      display:block;</span></p>
+<p class="p1"><span class="s1">      padding:10px 10px;</span></p>
+<p class="p1"><span class="s1">      border-radius:10px;</span></p>
+<p class="p1"><span class="s1">      color:var(--text);</span></p>
+<p class="p1"><span class="s1">      font-weight:600;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .dropdown a:hover{</span></p>
+<p class="p1"><span class="s1">      background: rgba(122,162,255,.12);</span></p>
+<p class="p1"><span class="s1">      text-decoration:none;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    .hero{</span></p>
+<p class="p1"><span class="s1">      margin-top:18px;</span></p>
+<p class="p1"><span class="s1">      display:grid;</span></p>
+<p class="p1"><span class="s1">      grid-template-columns: 1.4fr .6fr;</span></p>
+<p class="p1"><span class="s1">      gap:18px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    @media (max-width: 900px){</span></p>
+<p class="p1"><span class="s1">      .hero{grid-template-columns:1fr}</span></p>
+<p class="p1"><span class="s1">      .dropdown{left:0; right:auto}</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .card{</span></p>
+<p class="p1"><span class="s1">      background: rgba(17,27,46,.75);</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">      border-radius:var(--radius);</span></p>
+<p class="p1"><span class="s1">      padding:18px;</span></p>
+<p class="p1"><span class="s1">      box-shadow: var(--shadow);</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    h1{font-size:28px; margin:0 0 8px}</span></p>
+<p class="p1"><span class="s1">    h2{font-size:18px; margin:18px 0 8px}</span></p>
+<p class="p1"><span class="s1">    p{margin:8px 0; color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">    .pill{</span></p>
+<p class="p1"><span class="s1">      display:inline-flex; gap:8px; align-items:center;</span></p>
+<p class="p1"><span class="s1">      padding:8px 12px;</span></p>
+<p class="p1"><span class="s1">      border-radius:999px;</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">      background: rgba(255,255,255,.04);</span></p>
+<p class="p1"><span class="s1">      color:var(--text);</span></p>
+<p class="p1"><span class="s1">      font-weight:700;</span></p>
+<p class="p1"><span class="s1">      margin-right:8px;</span></p>
+<p class="p1"><span class="s1">      margin-top:8px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .grid{</span></p>
+<p class="p1"><span class="s1">      display:grid;</span></p>
+<p class="p1"><span class="s1">      grid-template-columns: repeat(2, 1fr);</span></p>
+<p class="p1"><span class="s1">      gap:14px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    @media (max-width: 800px){</span></p>
+<p class="p1"><span class="s1">      .grid{grid-template-columns:1fr}</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .kv{</span></p>
+<p class="p1"><span class="s1">      padding:12px;</span></p>
+<p class="p1"><span class="s1">      border-radius:14px;</span></p>
+<p class="p1"><span class="s1">      background: rgba(255,255,255,.03);</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .kv b{display:block; margin-bottom:6px}</span></p>
+<p class="p1"><span class="s1">    ul{margin:8px 0 0 18px; color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">    .footer{padding:22px 0; color:var(--muted); font-size:12px}</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    /* Password gate */</span></p>
+<p class="p1"><span class="s1">    .gate{</span></p>
+<p class="p1"><span class="s1">      position:fixed; inset:0;</span></p>
+<p class="p1"><span class="s1">      background: rgba(0,0,0,.65);</span></p>
+<p class="p1"><span class="s1">      display:flex; align-items:center; justify-content:center;</span></p>
+<p class="p1"><span class="s1">      padding:24px;</span></p>
+<p class="p1"><span class="s1">      z-index:999;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .gate .panel{</span></p>
+<p class="p1"><span class="s1">      width:min(520px, 100%);</span></p>
+<p class="p1"><span class="s1">      background: rgba(17,27,46,.96);</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">      border-radius:18px;</span></p>
+<p class="p1"><span class="s1">      padding:18px;</span></p>
+<p class="p1"><span class="s1">      box-shadow: var(--shadow);</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .row{display:flex; gap:10px; margin-top:12px}</span></p>
+<p class="p1"><span class="s1">    input[type="password"]{</span></p>
+<p class="p1"><span class="s1">      flex:1;</span></p>
+<p class="p1"><span class="s1">      padding:12px 12px;</span></p>
+<p class="p1"><span class="s1">      border-radius:12px;</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">      background: rgba(255,255,255,.05);</span></p>
+<p class="p1"><span class="s1">      color:var(--text);</span></p>
+<p class="p1"><span class="s1">      outline:none;</span></p>
+<p class="p1"><span class="s1">      font-size:14px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    button{</span></p>
+<p class="p1"><span class="s1">      padding:12px 14px;</span></p>
+<p class="p1"><span class="s1">      border-radius:12px;</span></p>
+<p class="p1"><span class="s1">      border:1px solid var(--border);</span></p>
+<p class="p1"><span class="s1">      background: linear-gradient(135deg, rgba(122,162,255,.25), rgba(77,227,193,.18));</span></p>
+<p class="p1"><span class="s1">      color:var(--text);</span></p>
+<p class="p1"><span class="s1">      font-weight:800;</span></p>
+<p class="p1"><span class="s1">      cursor:pointer;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    button:hover{filter:brightness(1.05)}</span></p>
+<p class="p1"><span class="s1">    .error{color:#ffb3b3; font-weight:700; margin-top:10px; display:none}</span></p>
+<p class="p1"><span class="s1">    .note{font-size:12px; color:var(--muted)}</span></p>
+<p class="p1"><span class="s1">    .section{scroll-margin-top:90px}</span></p>
+<p class="p1"><span class="s1">  &lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;!-- Password overlay --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;div class="gate" id="gate"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="panel"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;strong style="font-size:16px"&gt;Accesso riservato&lt;/strong&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;p style="margin:8px 0 0"&gt;</span></p>
+<p class="p1"><span class="s1">        Inserisci la password per visualizzare i dettagli della riunione.</span></p>
+<p class="p1"><span class="s1">      &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="row"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;input id="pw" type="password" placeholder="Password" autocomplete="current-password" /&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;button id="enterBtn" type="button"&gt;Entra&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="error" id="err"&gt;Password errata.&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;p class="note" style="margin-top:12px"&gt;</span></p>
+<p class="p1"><span class="s1">        Suggerimento: se pubblichi questa pagina online, questa protezione è “anti-curiosi”.</span></p>
+<p class="p1"><span class="s1">        Per protezione forte, usa un’area protetta lato server (vedi Opzione B).</span></p>
+<p class="p1"><span class="s1">      &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">  &lt;header class="topbar"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="nav"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="brand"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;strong&gt;39esimo Prometeo Rimpa&lt;/strong&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;span&gt;Verona • 2–4 ottobre 2026&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">      &lt;nav class="menus" aria-label="Menu"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;details&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;summary&gt;Albergo &lt;span class="caret"&gt;&lt;/span&gt;&lt;/summary&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="dropdown"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#albergo"&gt;Info &amp; indirizzo&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#checkin"&gt;Check-in / check-out&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#contatti"&gt;Contatti&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/details&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        &lt;details&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;summary&gt;Attività &lt;span class="caret"&gt;&lt;/span&gt;&lt;/summary&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="dropdown"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#attivita"&gt;Programma&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#cibo"&gt;Cibo &amp; prenotazioni&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#backup"&gt;Piano B (meteo)&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/details&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        &lt;details&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;summary&gt;Partecipanti &lt;span class="caret"&gt;&lt;/span&gt;&lt;/summary&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="dropdown"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#partecipanti"&gt;Elenco&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#quote"&gt;Quote / spese&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#regole"&gt;Note utili&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/details&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        &lt;details&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;summary&gt;Spostamenti &lt;span class="caret"&gt;&lt;/span&gt;&lt;/summary&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="dropdown"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#arrivi"&gt;Arrivi&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#muoversi"&gt;Come muoversi&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;a href="#parcheggi"&gt;Parcheggi&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/details&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/nav&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/header&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">  &lt;main class="wrap"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;section class="hero"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h1&gt;39esimo Prometeo Rimpa Verona 2-4 ottobre 2026&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">          Pagina organizzativa (riservata) con albergo, attività e logistica per il weekend a Verona.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span class="pill"&gt;</span><span class="s2">📅</span><span class="s1"> 2–4 ottobre 2026&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span class="pill"&gt;</span><span class="s2">📍</span><span class="s1"> Verona&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span class="pill"&gt;</span><span class="s2">👥</span><span class="s1"> Gruppo Prometeo Rimpa&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">        &lt;h2 class="section" id="attivita"&gt;Programma (bozza)&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="grid"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="kv"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;b&gt;Venerdì 2&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Arrivi e check-in&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Cena insieme (zona centro / vicino albergo)&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Dopocena libero&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="kv"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;b&gt;Sabato 3&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Mattina: attività principale (visita / passeggiata / tour)&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Pranzo&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Pomeriggio: seconda attività (museo / degustazione / relax)&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Sera: cena “ufficiale”&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="kv"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;b&gt;Domenica 4&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Check-out&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Brunch o ultimo giro&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;Rientri&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="kv"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;b&gt;Link rapidi&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;&lt;a href="#arrivi"&gt;Orari arrivi&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;&lt;a href="#muoversi"&gt;Muoversi in città&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;li&gt;&lt;a href="#cibo"&gt;Prenotazioni ristoranti&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">      &lt;aside class="card"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2&gt;In breve&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;&lt;b&gt;Obiettivo:&lt;/b&gt; organizzare logistica, prenotazioni e partecipanti.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;&lt;b&gt;Documento vivo:&lt;/b&gt; aggiorna qui man mano che decidete.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2 class="section" id="quote"&gt;Quote / spese&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">          Inserisci qui come dividerete le spese (albergo, cene, attività).</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Quota stimata: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Raccolta: … (es. Satispay / bonifico)&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;li&gt;Scadenza: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/aside&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    &lt;section class="card section" id="albergo" style="margin-top:18px"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;h2&gt;Albergo&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;p&gt;&lt;b&gt;Nome:&lt;/b&gt; (da inserire)&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;p&gt;&lt;b&gt;Indirizzo:&lt;/b&gt; (da inserire) — &lt;a href="#" onclick="alert('Incolla qui il link Google Maps dell’albergo'); return false;"&gt;Link mappa&lt;/a&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">      &lt;div class="grid" style="margin-top:12px"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv section" id="checkin"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;b&gt;Check-in / Check-out&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Check-in: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Check-out: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Colazione: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv section" id="contatti"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;b&gt;Contatti&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Telefono: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Email: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Referente prenotazione: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    &lt;section class="card section" id="arrivi" style="margin-top:18px"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;h2&gt;Spostamenti&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">      &lt;div class="grid" style="margin-top:12px"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;b&gt;Arrivi (treni / auto)&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Stazione consigliata: Verona Porta Nuova (se vi serve)&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Orari arrivo partecipanti: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Punto ritrovo: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv section" id="muoversi"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;b&gt;Muoversi a Verona&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;A piedi: centro molto comodo&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Bus: … (metti link al sito ATV se vuoi)&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Taxi / NCC: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv section" id="parcheggi"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;b&gt;Parcheggi&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Parcheggio 1: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Parcheggio 2: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Note ZTL: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;b&gt;Condivisione auto&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Chi arriva in auto: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Posti disponibili: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;li&gt;Gruppo coordinamento: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    &lt;section class="card section" id="cibo" style="margin-top:18px"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;h2&gt;Cibo &amp; prenotazioni&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;p&gt;Qui puoi mettere ristoranti proposti e chi prenota cosa.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Venerdì sera: … (prenota: …)&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Sabato pranzo: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Sabato cena ufficiale: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">      &lt;h2 class="section" id="backup"&gt;Piano B (meteo)&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Attività indoor 1: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Attività indoor 2: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    &lt;section class="card section" id="partecipanti" style="margin-top:18px"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;h2&gt;Partecipanti&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;p&gt;</span></p>
+<p class="p1"><span class="s1">        Inserisci l’elenco. Se vuoi evitare dati personali, usa solo nomi/nick e metti i contatti in un canale privato (WhatsApp/Signal).</span></p>
+<p class="p1"><span class="s1">      &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="grid" style="margin-top:12px"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv"&gt;&lt;b&gt;Confermati&lt;/b&gt;&lt;ul&gt;&lt;li&gt;…&lt;/li&gt;&lt;li&gt;…&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="kv"&gt;&lt;b&gt;In forse&lt;/b&gt;&lt;ul&gt;&lt;li&gt;…&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">      &lt;h2 class="section" id="regole"&gt;Note utili&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Orario limite per confermare: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Cosa portare: …&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;li&gt;Allergie/intolleranze: raccogliere in privato&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    &lt;div class="footer"&gt;</span></p>
+<p class="p1"><span class="s1">      Ultimo aggiornamento: &lt;span id="updated"&gt;&lt;/span&gt; • Pagina riservata al gruppo</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/main&gt;</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">  &lt;script&gt;</span></p>
+<p class="p1"><span class="s1">    // --- CONFIG: cambia qui ---</span></p>
+<p class="p1"><span class="s1">    // Per una protezione "anti-curiosi": scegli una password e mettila qui.</span></p>
+<p class="p1"><span class="s1">    // Meglio ancora: non pubblicare online oppure usa Opzione B (server-side).</span></p>
+<p class="p1"><span class="s1">    const PASSWORD = "cambia-questa-password";</span></p>
+<p class="p1"><span class="s1">    const STORAGE_KEY = "prometeo_verona_auth_ok";</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    // Close dropdowns when clicking outside</span></p>
+<p class="p1"><span class="s1">    document.addEventListener("click", (e) =&gt; {</span></p>
+<p class="p1"><span class="s1">      document.querySelectorAll("details[open]").forEach(d =&gt; {</span></p>
+<p class="p1"><span class="s1">        if (!d.contains(e.target)) d.removeAttribute("open");</span></p>
+<p class="p1"><span class="s1">      });</span></p>
+<p class="p1"><span class="s1">    });</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    // Password gate</span></p>
+<p class="p1"><span class="s1">    const gate = document.getElementById("gate");</span></p>
+<p class="p1"><span class="s1">    const pw = document.getElementById("pw");</span></p>
+<p class="p1"><span class="s1">    const err = document.getElementById("err");</span></p>
+<p class="p1"><span class="s1">    const enterBtn = document.getElementById("enterBtn");</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    function unlock() {</span></p>
+<p class="p1"><span class="s1">      localStorage.setItem(STORAGE_KEY, "1");</span></p>
+<p class="p1"><span class="s1">      gate.style.display = "none";</span></p>
+<p class="p1"><span class="s1">      document.body.style.overflow = "auto";</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    function lock() {</span></p>
+<p class="p1"><span class="s1">      localStorage.removeItem(STORAGE_KEY);</span></p>
+<p class="p1"><span class="s1">      gate.style.display = "flex";</span></p>
+<p class="p1"><span class="s1">      document.body.style.overflow = "hidden";</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    function tryLogin() {</span></p>
+<p class="p1"><span class="s1">      if (pw.value === PASSWORD) {</span></p>
+<p class="p1"><span class="s1">        err.style.display = "none";</span></p>
+<p class="p1"><span class="s1">        unlock();</span></p>
+<p class="p1"><span class="s1">      } else {</span></p>
+<p class="p1"><span class="s1">        err.style.display = "block";</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    enterBtn.addEventListener("click", tryLogin);</span></p>
+<p class="p1"><span class="s1">    pw.addEventListener("keydown", (e) =&gt; { if (e.key === "Enter") tryLogin(); });</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    // Already logged in?</span></p>
+<p class="p1"><span class="s1">    if (localStorage.getItem(STORAGE_KEY) === "1") {</span></p>
+<p class="p1"><span class="s1">      unlock();</span></p>
+<p class="p1"><span class="s1">    } else {</span></p>
+<p class="p1"><span class="s1">      lock();</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1"><span class="s1">    // Updated footer</span></p>
+<p class="p1"><span class="s1">    document.getElementById("updated").textContent =</span></p>
+<p class="p1"><span class="s1">      new Date().toLocaleString("it-IT", { dateStyle:"long", timeStyle:"short" });</span></p>
+<p class="p1"><span class="s1">  &lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
